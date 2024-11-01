@@ -1,0 +1,172 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce eToMiTreba Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-19 13:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woocommerce-gateway-rbawsb.php:25
+msgid "Setup"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:58
+msgid "RBA e-ToMiTreba"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:59
+msgid "RBA payment gateway for Visa and Mastercard cards."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:90
+msgid "Plugin e-ToMiTreba can work properly only with HRK as default currency!"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:112
+msgid "Order"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:167
+msgid "Pay order"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:185
+msgid "Enable/Disable"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:187 woocommerce-gateway-rbawsb.php:221
+#: woocommerce-gateway-rbawsb.php:229 woocommerce-gateway-rbawsb.php:237
+#: woocommerce-gateway-rbawsb.php:245
+msgid "Enabled"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:191
+msgid "Title"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:193
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:194
+msgctxt "Credit Card payment"
+msgid "Visa / Mastercard card"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:198
+msgid "Description"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:200
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:201
+msgid "Credit Card payment via secure gateway of RBA bank."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:205
+msgid "Merchant ID"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:207
+msgid "Merchant identification number you received from the bank (MerchantID)."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:212
+msgid "Terminal ID"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:214
+msgid "Terminal code you received from the bank (TerminalID)."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:219
+msgid "Testing"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:222
+msgid "Check if you want to work in test mode."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:227
+msgid "Authorization"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:230
+msgid ""
+"In authorization mode you need to approve transaction manually. Useful when "
+"you need to check your stock before final payment. You need to request "
+"enabling a \"Delay\" parameter from bank if you want to use this feature."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:235
+msgid "Show logo"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:238
+msgid ""
+"If enabled, eToMiTreba logo will be shown on payment method list in frontend."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:243
+msgid "Custom redirect pages"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:246
+msgid ""
+"If enabled, customer will be redirected to the custom pages after "
+"transaction. These pages need to be defined in merchant interface (Success "
+"URL and Failure URL)"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:251
+msgid "Status for successful transaction"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:254
+msgid "Order status for successful transaction."
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:321
+#, php-format
+msgid "Digital signature error. Transaction number: %d"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:340
+#, php-format
+msgid "Payment completed. Approval code: %d"
+msgstr ""
+
+#: woocommerce-gateway-rbawsb.php:361
+#, php-format
+msgid "Forbidden transaction! Code: %d"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce eToMiTreba Gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extends WooCommerce with an eToMiTreba gateway."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.webstudiobrana.com/wsb-etomitreba"
+msgstr ""
+
+#. Author of the plugin
+msgid "Branko Borilović"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.webstudiobrana.com"
+msgstr ""

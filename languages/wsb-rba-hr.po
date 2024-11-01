@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce eToMiTreba Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-19 13:26+0000\n"
+"PO-Revision-Date: 2020-04-19 13:29+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: Hrvatski\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4"
+
+#: woocommerce-gateway-rbawsb.php:25
+msgid "Setup"
+msgstr "Postavke"
+
+#: woocommerce-gateway-rbawsb.php:58
+msgid "RBA e-ToMiTreba"
+msgstr "RBA e-ToMiTreba"
+
+#: woocommerce-gateway-rbawsb.php:59
+msgid "RBA payment gateway for Visa and Mastercard cards."
+msgstr "RBA payment gateway za Visa i Mastercard kartice."
+
+#: woocommerce-gateway-rbawsb.php:90
+msgid "Plugin e-ToMiTreba can work properly only with HRK as default currency!"
+msgstr ""
+"Dodatak e-ToMiTreba radit će ispravno samo ako je zadana valuta trgovine HRK!"
+
+#: woocommerce-gateway-rbawsb.php:112
+msgid "Order"
+msgstr "Narudžba"
+
+#: woocommerce-gateway-rbawsb.php:167
+msgid "Pay order"
+msgstr "Plati narudžbu"
+
+#: woocommerce-gateway-rbawsb.php:185
+msgid "Enable/Disable"
+msgstr "Uključeno/Isključeno"
+
+#: woocommerce-gateway-rbawsb.php:187 woocommerce-gateway-rbawsb.php:221
+#: woocommerce-gateway-rbawsb.php:229 woocommerce-gateway-rbawsb.php:237
+#: woocommerce-gateway-rbawsb.php:245
+msgid "Enabled"
+msgstr "Uključeno"
+
+#: woocommerce-gateway-rbawsb.php:191
+msgid "Title"
+msgstr "Naziv"
+
+#: woocommerce-gateway-rbawsb.php:193
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ovime se kontrolira naziv koji korisnik vidi u procesu kupovine."
+
+#: woocommerce-gateway-rbawsb.php:194
+msgctxt "Credit Card payment"
+msgid "Visa / Mastercard card"
+msgstr "Visa / Mastercard kartica"
+
+#: woocommerce-gateway-rbawsb.php:198
+msgid "Description"
+msgstr "Opis"
+
+#: woocommerce-gateway-rbawsb.php:200
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Opis metode plaćanja koji će kupac vidjeti u procesu naplate."
+
+#: woocommerce-gateway-rbawsb.php:201
+msgid "Credit Card payment via secure gateway of RBA bank."
+msgstr "Plaćanje karticama na sigurnom sučelju RBA banke."
+
+#: woocommerce-gateway-rbawsb.php:205
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: woocommerce-gateway-rbawsb.php:207
+msgid "Merchant identification number you received from the bank (MerchantID)."
+msgstr "Jedinstvena oznaka trgovca koju ste dobili od banke (MerchantID)."
+
+#: woocommerce-gateway-rbawsb.php:212
+msgid "Terminal ID"
+msgstr "Terminal ID"
+
+#: woocommerce-gateway-rbawsb.php:214
+msgid "Terminal code you received from the bank (TerminalID)."
+msgstr "Oznaka terminala koju ste dobili od banke (TerminalID)."
+
+#: woocommerce-gateway-rbawsb.php:219
+msgid "Testing"
+msgstr "Testiranje"
+
+#: woocommerce-gateway-rbawsb.php:222
+msgid "Check if you want to work in test mode."
+msgstr "Označite ako želite koristiti testno sučelje."
+
+#: woocommerce-gateway-rbawsb.php:227
+msgid "Authorization"
+msgstr "Autorizacija"
+
+#: woocommerce-gateway-rbawsb.php:230
+msgid ""
+"In authorization mode you need to approve transaction manually. Useful when "
+"you need to check your stock before final payment. You need to request "
+"enabling a \"Delay\" parameter from bank if you want to use this feature."
+msgstr ""
+"U autorizacijskom načinu rada svaku autoriziranu transakciju morate ručno "
+"odobriti kroz sučelje trgovca na stranicama RBA. Ako želite koristiti ovu "
+"opciju, prvo zatražite od banke da vam aktiviraju autorizaciju na terminalu."
+
+#: woocommerce-gateway-rbawsb.php:235
+msgid "Show logo"
+msgstr "Prikaži logo"
+
+#: woocommerce-gateway-rbawsb.php:238
+msgid ""
+"If enabled, eToMiTreba logo will be shown on payment method list in frontend."
+msgstr ""
+"Ako je uključeno, logo e-ToMiTreba bit će prikazan uz ovaj način plaćanja."
+
+#: woocommerce-gateway-rbawsb.php:243
+msgid "Custom redirect pages"
+msgstr "Stranice za preusmjeravanje"
+
+#: woocommerce-gateway-rbawsb.php:246
+msgid ""
+"If enabled, customer will be redirected to the custom pages after "
+"transaction. These pages need to be defined in merchant interface (Success "
+"URL and Failure URL)"
+msgstr ""
+"Ako je uključeno, kupac će nakon transakcije biti preusmjeren na stranice "
+"zadane u poljima Success URL i Failure URL u sučelju trgovca na stranici "
+"banke. Ako je isključeno, koristit će se zadane vrijednosti iz Woocommerce-a."
+
+#: woocommerce-gateway-rbawsb.php:251
+msgid "Status for successful transaction"
+msgstr "Status za uspješnu transakciju"
+
+#: woocommerce-gateway-rbawsb.php:254
+msgid "Order status for successful transaction."
+msgstr "Status nakon uspješne transakcije"
+
+#: woocommerce-gateway-rbawsb.php:321
+#, php-format
+msgid "Digital signature error. Transaction number: %d"
+msgstr "Greška u potpisu! Broj transakcije: %d"
+
+#: woocommerce-gateway-rbawsb.php:340
+#, php-format
+msgid "Payment completed. Approval code: %d"
+msgstr "Plaćanje je završeno. Broj odobrenja: %d"
+
+#: woocommerce-gateway-rbawsb.php:361
+#, php-format
+msgid "Forbidden transaction! Code: %d"
+msgstr "Transakcija nije odobrena! Oznaka: %d"
+
+#. Name of the plugin
+msgid "WooCommerce eToMiTreba Gateway"
+msgstr "WooCommerce eToMiTreba Gateway"
+
+#. Description of the plugin
+msgid "Extends WooCommerce with an eToMiTreba gateway."
+msgstr "Proširuje WooCommerce metodom plaćanja eToMiTreba."
+
+#. URI of the plugin
+msgid "https://www.webstudiobrana.com/wsb-etomitreba"
+msgstr "https://www.webstudiobrana.com/wsb-etomitreba"
+
+#. Author of the plugin
+msgid "Branko Borilović"
+msgstr "Branko Borilović"
+
+#. Author URI of the plugin
+msgid "http://www.webstudiobrana.com"
+msgstr "http://www.webstudiobrana.com"
